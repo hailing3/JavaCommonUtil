@@ -7,7 +7,7 @@ package com.mtx.javacommon.test;
 public class TestEconomic {
 
     static final double moneyPerYearIn = 40000;
-    static final double RATE = 0.4;
+    static final double RATE = 0.2;
     static int years = 50;
     static final int YEAR_NOW = 2016;
     static final int AGE_NOW = 24;

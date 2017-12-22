@@ -1,28 +1,19 @@
 package com.mtx.javacommon;
 
-import com.mtx.javacommon.util.ThumbnailGeneratorUtil;
+import java.io.IOException;
 
 public class Test {
 
-    static final String FILE_ORIGIN = "file/origin.png";
-    static final String FILE_END = "file/end.png";
-    static final int THUM_HEIGHT = 300;
-
-    public static void main(String[] args) {
-        try {
-            ThumbnailGeneratorUtil.transform(FILE_ORIGIN, FILE_END, THUM_HEIGHT, THUM_HEIGHT);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-
-        System.out.println("1111Hello, World!");
-        System.out.println(show());
+    public static void main(String[] args) throws IOException {
+        String s = "\"abcdefg\"";
+        s = s.substring(1, s.length() - 1);
+        System.out.println(s);
 
     }
 
-    public static String show() {
-        return "Hello Wolrd!";
+    private static int getLayoutNum(int functionNum, int functionPerLayout) {
+        int left = functionNum % functionPerLayout;
+        return functionNum / functionPerLayout + (left == 0 ? 0 : 1);
     }
 
 }
