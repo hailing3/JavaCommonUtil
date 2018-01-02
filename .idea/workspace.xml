@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41fac17c-5b17-4d0e-9088-8dc7213381be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mtx/javacommon/model/MinHeap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mtx/javacommon/question/swordToOffer/Qu30.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mtx/javacommon/question/swordToOffer/Qu03.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,8 +28,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="108">
+              <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -74,6 +73,7 @@
         <option value="$PROJECT_DIR$/src/com/mtx/javacommon/test/TestEconomic.java" />
         <option value="$PROJECT_DIR$/src/com/mtx/javacommon/model/MinHeap.java" />
         <option value="$PROJECT_DIR$/src/com/mtx/javacommon/question/swordToOffer/Qu30.java" />
+        <option value="$PROJECT_DIR$/src/com/mtx/javacommon/question/swordToOffer/Qu03.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -106,6 +106,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -266,9 +268,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,27 +300,7 @@
       <recent name="$PROJECT_DIR$/src/com/mtx/javacommon/util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Qu30">
-    <configuration default="false" name="TestArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mtx.javacommon.question.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mtx.javacommon.question.TestArray" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaCommonUtil" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Qu03">
     <configuration default="false" name="Qu29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -389,6 +369,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.mtx.javacommon.question.swordToOffer.Qu30" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaCommonUtil" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Qu03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mtx.javacommon.question.swordToOffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.mtx.javacommon.question.swordToOffer.Qu03" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -783,19 +783,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestArray" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Qu29" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestEconomic" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MinHeap" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Qu30" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Qu29" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestEconomic" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MinHeap" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Qu30" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Qu03" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Qu30" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MinHeap" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestEconomic" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Qu29" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestArray" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Qu03" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Qu30" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MinHeap" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestEconomic" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Qu29" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -845,12 +845,13 @@
       <workItem from="1510218277155" duration="3834000" />
       <workItem from="1511493991227" duration="621000" />
       <workItem from="1512630103793" duration="4400000" />
-      <workItem from="1513217122303" duration="10000000" />
+      <workItem from="1513217122303" duration="10128000" />
+      <workItem from="1514874145927" duration="3669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28622000" />
+    <option name="totallyTimeSpent" value="32419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -866,7 +867,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27235773" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66056913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -926,6 +927,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mtx/javacommon/test/TestJson.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -1169,26 +1178,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mtx/javacommon/question/swordToOffer/Qu29.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <marker date="1513926923384" expanded="true" signature="78:153" ph="/**...*/" />
-            <marker date="1513926923384" expanded="true" signature="217:576" ph="{...}" />
-            <marker date="1513926923384" expanded="true" signature="582:645" ph="/**...*/" />
-            <marker date="1513926923384" expanded="true" signature="687:1515" ph="{...}" />
-            <marker date="1513926923384" expanded="true" signature="849:867" ph="&lt;~&gt;" />
-            <marker date="1513926923384" expanded="true" signature="1239:1328" ph="//..." />
-            <marker date="1513926923384" expanded="true" signature="1416:1489" ph="//..." />
-            <marker date="1513926923384" expanded="true" signature="1578:1743" ph="{...}" />
-            <marker date="1513926923384" expanded="true" signature="1749:1923" ph="/**...*/" />
-            <marker date="1513926923384" expanded="true" signature="1966:2486" ph="{...}" />
-            <marker date="1513926923384" expanded="true" signature="2600:2852" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mtx/javacommon/test/TestEconomic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -1304,19 +1293,19 @@
         <state relative-caret-position="1134">
           <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
           <folding>
-            <marker date="1513930676871" expanded="true" signature="35:87" ph="/**...*/" />
-            <marker date="1513930676871" expanded="true" signature="215:269" ph="{...}" />
-            <marker date="1513930676871" expanded="true" signature="317:591" ph="{...}" />
-            <marker date="1513930676871" expanded="true" signature="327:460" ph="//..." />
-            <marker date="1513930676871" expanded="true" signature="625:1235" ph="{...}" />
-            <marker date="1513930676871" expanded="false" signature="1291:1302" ph=" { " />
-            <marker date="1513930676871" expanded="false" signature="1319:1325" ph=" }" />
-            <marker date="1513930676871" expanded="false" signature="1372:1383" ph=" { " />
-            <marker date="1513930676871" expanded="false" signature="1400:1406" ph=" }" />
-            <marker date="1513930676871" expanded="true" signature="1458:1542" ph="{...}" />
-            <marker date="1513930676871" expanded="false" signature="1590:1601" ph=" { " />
-            <marker date="1513930676871" expanded="false" signature="1616:1622" ph=" }" />
-            <marker date="1513930676871" expanded="true" signature="1682:1733" ph="{...}" />
+            <marker date="1513931217987" expanded="true" signature="35:87" ph="/**...*/" />
+            <marker date="1513931217987" expanded="true" signature="215:269" ph="{...}" />
+            <marker date="1513931217987" expanded="true" signature="317:591" ph="{...}" />
+            <marker date="1513931217987" expanded="true" signature="327:460" ph="//..." />
+            <marker date="1513931217987" expanded="true" signature="625:1235" ph="{...}" />
+            <marker date="1513931217987" expanded="false" signature="1291:1302" ph=" { " />
+            <marker date="1513931217987" expanded="false" signature="1319:1325" ph=" }" />
+            <marker date="1513931217987" expanded="false" signature="1372:1383" ph=" { " />
+            <marker date="1513931217987" expanded="false" signature="1400:1406" ph=" }" />
+            <marker date="1513931217987" expanded="true" signature="1458:1542" ph="{...}" />
+            <marker date="1513931217987" expanded="false" signature="1590:1601" ph=" { " />
+            <marker date="1513931217987" expanded="false" signature="1616:1622" ph=" }" />
+            <marker date="1513931217987" expanded="true" signature="1682:1733" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1326,17 +1315,51 @@
         <state relative-caret-position="180">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <marker date="1513931006858" expanded="true" signature="93:229" ph="/**...*/" />
-            <marker date="1513931006858" expanded="true" signature="293:507" ph="{...}" />
-            <marker date="1513931006858" expanded="true" signature="582:1070" ph="{...}" />
+            <marker date="1513931217987" expanded="true" signature="93:229" ph="/**...*/" />
+            <marker date="1513931217987" expanded="true" signature="293:507" ph="{...}" />
+            <marker date="1513931217987" expanded="true" signature="582:1070" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mtx/javacommon/question/swordToOffer/Qu29.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <marker date="1513926923384" expanded="true" signature="78:153" ph="/**...*/" />
+            <marker date="1513926923384" expanded="true" signature="217:576" ph="{...}" />
+            <marker date="1513926923384" expanded="true" signature="582:645" ph="/**...*/" />
+            <marker date="1513926923384" expanded="true" signature="687:1515" ph="{...}" />
+            <marker date="1513926923384" expanded="true" signature="849:867" ph="&lt;~&gt;" />
+            <marker date="1513926923384" expanded="true" signature="1239:1328" ph="//..." />
+            <marker date="1513926923384" expanded="true" signature="1416:1489" ph="//..." />
+            <marker date="1513926923384" expanded="true" signature="1578:1743" ph="{...}" />
+            <marker date="1513926923384" expanded="true" signature="1749:1923" ph="/**...*/" />
+            <marker date="1513926923384" expanded="true" signature="1966:2486" ph="{...}" />
+            <marker date="1513926923384" expanded="true" signature="2600:2852" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mtx/javacommon/question/swordToOffer/Qu03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <marker date="1514877330197" expanded="true" signature="51:143" ph="/**...*/" />
+            <marker date="1514877330197" expanded="true" signature="207:880" ph="{...}" />
+            <marker date="1514877330197" expanded="true" signature="886:1018" ph="/**...*/" />
+            <marker date="1514877330197" expanded="true" signature="1076:1572" ph="{...}" />
+            <marker date="1514877330197" expanded="true" signature="1618:1792" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="108">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding />
         </state>
       </provider>
