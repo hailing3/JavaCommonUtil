@@ -23,6 +23,11 @@ public class TestEconomic {
                     + "\t\t固定增长=" + getFormat(moneyPerYearIn) + "\t\t总资产约=" + getFormat(total) + "\t\t合"
                     + getFormat(total / RATE_DOLLAR) + "美元");
         }
+
+        final double DOLLAR_ORI = 3050;
+        final double DOLLAR_NOW = 3786;
+        System.out.println("2016年5月17日初始资金：" + DOLLAR_ORI + ", 目前总资产：" + DOLLAR_NOW + ",收益率：" + (DOLLAR_NOW - DOLLAR_ORI) / DOLLAR_ORI);
+
     }
 
     public static String getFormat(double num) {
